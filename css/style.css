@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fffaf0;
+    font-family: cochin, 'Times New Roman', Times, serif;
+}
+
+header {
+    margin-top: 3rem;
+}
+
+.menubar {
+    width: 4rem;
+    position: fixed;
+    top: 2rem;
+    right: 2rem;
+    height: auto;
+}
+
+.logo {
+    width: 12rem;
+}
+
+aside.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+aside.logo-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+    font-weight: normal;
+    font-size: 3rem;
+    margin-top: 2rem;
+    letter-spacing: 0.25rem;
+}
+
+
+section.billeder {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+img.center.image {
+    margin-left: 4rem;
+    margin-right: 4rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 1.8rem;
+}
+
+img.side.image {
+    border-radius: 1.8rem;
+    opacity: 50%;
+}
+
+.long {
+    border: none;
+    height: 0.125rem;
+    width: 70rem;
+    background-color: #000000;
+    margin: 1.5rem auto;
+    
+}
+
+
+.side {
+    width: 20rem;
+}
+
+
+.center {
+    width: 30rem;
+}
+
+.lille {
+    background: #efdecd;
+    border: 1rem;
+    width: 30rem;
+    height: 35rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1.8rem;
+}
+
+.box.tre {
+    background: #efdecd;
+    border: 1rem;
+    width: 70rem;
+    height: 27rem;
+    border-radius: 1.8rem;
+}
+
+article.box.et {
+    display: flex;
+    flex-direction: column;
+    margin-right: 4rem;
+}
+
+article.box.to {
+    display: flex;
+    flex-direction: column;
+    margin-left: 4rem;
+}
+
+article.box.tre {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 5rem;
+    font-size: 1.3rem; 
+    line-height: 1.5;
+    padding: 1rem;
+    align-items: center;
+}
+
+p {
+    padding: 1.5rem;
+}
+
+.textlinje {
+    border: none;
+    height: 0.125rem;
+    width: 17rem;
+    background-color: #000000;
+    margin-top: 0.8rem;
+}
+
+ul {
+    list-style: none;
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    font-size: 1.5rem;
+    line-height: 2.1;
+}
+
+section.container {
+    display: flex;
+    justify-content: center;
+    margin: 3rem;
+}
+
+section.omos {
+    display: flex;
+    justify-content: center;
+}
+
+.box1text {
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-top: 0;
+    font-weight: bold;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    gap: 30px;
+}
+
+.hover:hover {
+    background-color: #ffe9d3;
+}
