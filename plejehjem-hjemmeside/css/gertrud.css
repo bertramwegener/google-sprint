@@ -1,0 +1,225 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fffaf0;
+    font-family: cochin, 'Times New Roman', Times, serif;
+}
+
+header {
+    margin-top: 3rem;
+}
+
+.menubar {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menubillede {
+    width: 4rem;
+    position: fixed;
+    top: 2rem;
+    right: 2rem;
+    height: auto;
+}
+
+.profil {
+    display: flex;
+    justify-content: center;
+}
+
+.gertrud {
+    width: 22rem;
+}
+
+h1 {
+    text-align: center;
+    font-size: 4rem;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: normal;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.no-dot {
+    list-style: none;
+}
+
+.box {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    text-align: center;
+}
+
+.lægetjek {
+    padding-left: 10rem;
+    padding-right: 10rem;
+}
+
+.overskrift {
+    font-weight: bold;
+}
+
+hr {
+    border: none;
+    height: 0.125rem;
+    background-color: #000000;
+    width: 70rem;
+    margin: 1.5rem auto;
+}
+
+.midten {
+    display: flex;
+    justify-content: center;
+}
+
+.midten-first {
+    margin-top: 2rem;
+}
+
+.streg {
+    border: none;
+    height: 25rem;
+    background-color: #000000;
+    width: 0.125rem;
+    margin-left: 10rem;
+    margin-right: 5rem;
+}
+
+.streg-under-opdatering {
+    position: relative;
+    display: inline-block;
+}
+
+.streg-under-opdatering img {
+    width: 25rem;
+    height: auto;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #000000;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.hvid-box {
+    border: 0.125rem #efdecd solid;
+    border-radius: 1.8rem;
+    background-color: #ffffff;
+    height: 15rem;
+    width: 30rem;
+    margin-right: 1rem;
+}
+
+.text-hvid-box {
+    font-size: 1.5rem;
+    line-height: 3.2rem;
+    padding-top: 1rem;
+    padding-left: 4rem;
+}
+
+.aktivitet {
+    font-size: 3rem;
+    font-style: italic;
+    line-height: 4.5rem;
+    padding-top: 5rem;
+}
+
+.midten-second {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 10rem;
+}
+
+.streg-under-sep {
+    position: relative;
+    text-align: center;
+}
+
+.billede {
+    display: block;
+    width: 50rem;
+    max-width: 35rem;
+}
+
+.text-overlay-to {
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 4rem;
+    font-weight: lighter;
+}
+
+.tid {
+    padding-left: 70rem;
+    padding-bottom: 1rem;
+    font-size: 2rem;
+    font-weight: normal;
+}
+
+h5 {
+    text-decoration: underline;
+}
+
+.kalenderboks {
+    display: flex;
+    justify-content: center;
+}
+
+.kalender {
+    width: 75rem;
+}
+
+.taleboks {
+    margin-left: 8rem;
+}
+
+.taleboble {
+    width: 10rem;
+}
+
+.skriv {
+    border: 0.125rem solid #000000;
+    border-radius: 1.8rem;
+    width: 50rem;
+    height: 5rem;
+    margin-left: 3rem;
+    margin-top: 2rem;
+    padding-top: 1.3rem;
+    padding-left: 1.5rem;
+}
+
+.personale {
+    font-size: 1.5rem;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 5rem;
+    padding-right: 10rem;
+    margin-bottom: 4rem;
+}
+
+.hover:hover {
+    color: #a7947e;
+}
